@@ -6,7 +6,8 @@ let video;
 let asciiDiv;
 
 function setup() {
-  createCanvas(70, 70, WEBGL);
+  let c = createCanvas(70, 70, WEBGL);
+  c.hide();
   asciiDiv = createDiv();
 }
 
